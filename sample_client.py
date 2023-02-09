@@ -1,9 +1,12 @@
 import requests
 
-url = "http://localhost:3838/"
-wiki_link = "https://en.wikipedia.org/wiki/BMW"
+host = "http://localhost:3838/"
 
-response = requests.get(url, params={"link": wiki_link})
+parameters = {
+    "link": "https://en.wikipedia.org/wiki/BMW"
+}
+
+response = requests.get(host, parameters)
 
 if response.status_code == 200:
     print(response.json())
