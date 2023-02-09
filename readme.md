@@ -41,5 +41,4 @@ How to Receive Data From Server:
                 outfile.write(response.text)
 
 
-![Alt text](../Downloads/Untitled.jpg)
-
+![Untitled](https://user-images.githubusercontent.com/91217121/217690084-ead421f5-3813-4e0e-ac20-4730e45bfbe1.jpg)
